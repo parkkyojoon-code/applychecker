@@ -1,8 +1,6 @@
 name: Apply Checker
 
 on:
-  schedule:
-    - cron: '*/5 * * * *'
   workflow_dispatch:
     inputs:
       mode:
